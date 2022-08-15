@@ -1,0 +1,41 @@
+
+
+button{animation: InAndOut .5s forwards alternate infinite;width: 7em;padding: 1em;border-radius: .5em;}
+
+.Simple-Input{
+    max-width: 100%;
+    padding: 1em;
+    border: none;
+    background-color: lightgrey;
+    color: black;
+}
+
+.Text-Hover:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+@keyframes InAndOut {
+    0%{
+        opacity: .6;
+    }
+
+    33.33%{
+        opacity: .65;
+    }
+
+    33.33%{
+        opacity: .75;
+    }
+
+    100%{
+        opacity: 1;
+
+    }
+
+}
